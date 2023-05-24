@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Api Test Suite" verbose="1">
+    <test name="Api Smoke Test">
+        <classes>
+            <class name="com.bookStore.tests.apiTests.SetApiData"></class>
+            <class name="com.bookStore.tests.apiTests.GetAllBooks"></class>
+            <class name="com.bookStore.tests.apiTests.RegisterUser"></class>
+            <class name="com.bookStore.tests.apiTests.GenerateToken"></class>
+            <class name="com.bookStore.tests.apiTests.AuthorizedUser"></class>
+            <class name="com.bookStore.tests.apiTests.AddNewBook"></class>
+            <class name="com.bookStore.tests.apiTests.GetUserInfo"></class>
+            <class name="com.bookStore.tests.apiTests.UpdateBook"></class>
+            <class name="com.bookStore.tests.apiTests.DeleteBook"></class>
+            <class name="com.bookStore.tests.apiTests.DeleteAllBooks"></class>
+        </classes>
+    </test>
+</suite>
